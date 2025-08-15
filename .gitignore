@@ -37,3 +37,7 @@ allure-results/
 # Environment files
 .env
 .env.*
+
+# Playwright test results and reports
+/test-results/
+/playwright-report/
