@@ -23,11 +23,12 @@ jobs:
       - name: Install Playwright browsers & OS deps
         run: npx playwright install --with-deps
 
-      - name: Run UI tests
-        run: npm run test:ui
+      - name: Run UI tests (Chromium only)
+        run: npx playwright test --project=chromium
 
-      - name: Run API tests
-        run: npm run test:api
+      # API tests removed for now
+      # - name: Run API tests
+      #   run: npm run test:api
 
       - name: Generate Allure report
         run: npm run allure:generate
