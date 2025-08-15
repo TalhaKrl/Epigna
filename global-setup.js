@@ -1,7 +1,7 @@
 const { chromium } = require('@playwright/test');
 
 module.exports = async () => {
-  const browser = await chromium.launch({ headless: false });
+  const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.goto('http://preprod.epigna.com');
   try {
