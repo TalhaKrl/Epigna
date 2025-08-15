@@ -1,0 +1,39 @@
+{
+  "cookies": [
+    {
+      "name": "access_token",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic3VwZXIudXNlckB0ZXN0LmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IlVzZXIiLCJleHAiOjE3NTUyODgwMTMsImlzcyI6IllvdXJBdXRoU2VydmljZSIsImF1ZCI6IllvdXJBcHBBUEkifQ.A26OCX_r6nBY1urbLcsefk0YACAs0e0ChMePS3pmb-Y",
+      "domain": "api.epigna.com",
+      "path": "/",
+      "expires": 1755288011.7301,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refresh_token",
+      "value": "e9a4aafd-2dfe-4089-8513-54ad84202141",
+      "domain": "api.epigna.com",
+      "path": "/",
+      "expires": 1755889211.73017,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://preprod.epigna.com",
+      "localStorage": [
+        {
+          "name": "persist:savedDesigns",
+          "value": "{\"designs\":\"[]\",\"loading\":\"false\",\"error\":\"null\",\"totalCount\":\"0\",\"currentPage\":\"1\",\"hasMore\":\"true\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        },
+        {
+          "name": "persist:cart",
+          "value": "{\"items\":\"[]\",\"loading\":\"false\",\"error\":\"null\",\"checkoutStatus\":\"\\\"idle\\\"\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+        }
+      ]
+    }
+  ]
+}

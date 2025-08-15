@@ -2,6 +2,7 @@
 const { defineConfig, devices } = require('@playwright/test');
 
 module.exports = defineConfig({
+  globalSetup: require.resolve('./global-setup.js'),
   testDir: './tests/ui',
   reporter: [
     ['list'],
